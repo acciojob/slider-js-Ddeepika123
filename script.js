@@ -6,11 +6,8 @@
         const totalSlides = 4;
         let currentSlide = 0;
         function changeSlide() {
-            leftSlide.style.transform =
-                `translateY(-${currentSlide * 100}%)`;
-            rightSlide.style.transform =
-                `translateY(-${currentSlide * 100}%)`;
-        }
+            leftSlide.style.transform =`translateY(-${currentSlide * 100}%)`;
+            rightSlide.style.transform =`translateY(-${currentSlide * 100}%)`;  }
         // NEXT SLIDE
         downButton.addEventListener("click", function () {
             currentSlide++;
